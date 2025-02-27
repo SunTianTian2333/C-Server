@@ -4,7 +4,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
-#include "util.h"
+#include "src/util.h"
 
 const int PORT = 8888;
 const int BUFFER_SIZE = 1024;
