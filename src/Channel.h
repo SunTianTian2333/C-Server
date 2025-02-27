@@ -26,8 +26,8 @@ public:
     // void setEvents(uint32_t);
     void setRevents(uint32_t);
 
-    // 改为reactor模式，事件处理模块被分发到Channel里
-    void handleEvent();
+    // 改为reactor模式，事件处理模块被分发到Channel里,具体实现细节在Server里
+    void handleEvent(); //在Server里被绑定
     void setCallback(std::function<void()>);
 };
 
