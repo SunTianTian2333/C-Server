@@ -40,3 +40,9 @@ int Socket::accept(InetAddress *addr){
 int Socket::getFd(){
     return fd;
 }
+
+void Socket::connect(InetAddress *_addr){
+    struct sockaddr_in addr = _addr->getAddr();
+    socklen_t addr_len = _addr->getAddr_len();
+    errif(::connect(fd, (sockaddr*)&addr, addr_len) == -1, "socket connect error");
+}
