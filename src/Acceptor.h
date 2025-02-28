@@ -11,10 +11,11 @@ private:
     EventLoop *loop;
     Socket *sock;
     Channel *acceptChannel;
+    std::function<void(Socket *)> newConnectionCallback;
 public:
     Acceptor(EventLoop *loop);
     ~Acceptor();
     void acceptConnection();
-    std::function<void(Socket *)> newConnectionCallback;
+    
     void setNewConnectionCallback(std::function<void(Socket *)>); 
 };

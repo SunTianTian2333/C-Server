@@ -14,4 +14,5 @@ public:
     const char* c_str();
     void clear();
     void getline();
+    void setBuf(const char*);
 };

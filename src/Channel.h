@@ -9,26 +9,28 @@ private:
     EventLoop *loop;
     int fd;
     uint32_t events;
-    uint32_t revents;
+    uint32_t ready;
     bool inEpoll;
-    std::function<void()> callback;
+    bool useThreadPool;
+    std::function<void()> readCallback;
+    std::function<void()> writeCallback;
 public:
     Channel(EventLoop *_loop, int _fd);
     ~Channel();
 
-    void enableReading();
+    void handleEvent();
+    void enableRead();
+
     int getFd();
     uint32_t getEvents();
-    uint32_t getRevents();
+    uint32_t getReady();
     bool getInEpoll();
-    void setInEpoll();
+    void setInEpoll(bool _in = true);
+    void useET();
 
-    // void setEvents(uint32_t);
-    void setRevents(uint32_t);
-
-    // 改为reactor模式，事件处理模块被分发到Channel里,具体实现细节在Server里
-    void handleEvent(); //在Server里被绑定
-    void setCallback(std::function<void()>);
+    void setReady(uint32_t);
+    void setReadCallback(std::function<void()>);
+    void setUseThreadPool(bool use = true);
 };
 
 

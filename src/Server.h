@@ -18,7 +18,7 @@ public:
     //转移到connection中
     // void handleReadEvent(int); 
 
-    void newConnection(Socket *serv_sock);
-    void deleteConnection(Socket *sock);
+    void newConnection(Socket *sock);
+    void deleteConnection(int sockfd);
 };
 
