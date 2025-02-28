@@ -42,7 +42,8 @@ void Channel::setRevents(uint32_t _ev){
 }
 
 void Channel::handleEvent(){
-    callback();
+    loop->addThread(callback);  //引入线程池
+    // callback();
 }
 
 void Channel::setCallback(std::function<void()> _cb){
