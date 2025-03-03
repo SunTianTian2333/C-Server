@@ -37,12 +37,6 @@
 },
 {
   "directory": "/home/suntiantian/桌面/webserver/build/src",
-  "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/suntiantian/桌面/webserver/src/include -I/home/suntiantian/桌面/webserver/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -std=gnu++17 -fPIC -o CMakeFiles/pine_shared.dir/InetAddress.cpp.o -c /home/suntiantian/桌面/webserver/src/InetAddress.cpp",
-  "file": "/home/suntiantian/桌面/webserver/src/InetAddress.cpp",
-  "output": "src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o"
-},
-{
-  "directory": "/home/suntiantian/桌面/webserver/build/src",
   "command": "/usr/bin/c++ -Dpine_shared_EXPORTS -I/home/suntiantian/桌面/webserver/src/include -I/home/suntiantian/桌面/webserver/test/include  -fPIC -Wall -Wextra -std=c++17 -pthread -Wno-unused-parameter -Wno-attributes -std=gnu++17 -fPIC -o CMakeFiles/pine_shared.dir/Server.cpp.o -c /home/suntiantian/桌面/webserver/src/Server.cpp",
   "file": "/home/suntiantian/桌面/webserver/src/Server.cpp",
   "output": "src/CMakeFiles/pine_shared.dir/Server.cpp.o"

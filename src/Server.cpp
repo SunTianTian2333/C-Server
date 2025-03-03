@@ -10,47 +10,50 @@
 
 #define READ_BUFFER 1024
 
-Server::Server(EventLoop *_loop) : mainReactor(_loop), acceptor(nullptr) {
-  acceptor = new Acceptor(mainReactor);
-  std::function<void(Socket *)> cb = std::bind(&Server::newConnection, this, std::placeholders::_1);
-  acceptor->setNewConnectionCallback(cb);
+Server::Server(EventLoop *_loop) : mainReactor_(_loop), acceptor_(nullptr) {
+  acceptor_ = new Acceptor(mainReactor_);
+  std::function<void(Socket *)> cb = std::bind(&Server::NewConnection, this, std::placeholders::_1);
+  acceptor_->SetNewConnectionCallback(cb);
 
   int size = std::thread::hardware_concurrency();
-  thpool = new ThreadPool(size);
+  thread_pool_ = new ThreadPool(size);
   for (int i = 0; i < size; ++i) {
-    subReactors.push_back(new EventLoop());
+    subReactors_.push_back(new EventLoop());
   }
 
   for (int i = 0; i < size; ++i) {
     // 直接使用 subReactors[i]->loop() 是同步调用，
-    std::function<void()> sub_loop = std::bind(&EventLoop::loop, subReactors[i]);
-    thpool->Add(sub_loop);
+    std::function<void()> sub_loop = std::bind(&EventLoop::Loop, subReactors_[i]);
+    thread_pool_->Add(std::move(sub_loop));
   }
 }
 
 Server::~Server() {
-  delete acceptor;
-  delete thpool;
+  delete acceptor_;
+  delete thread_pool_;
 }
 
-void Server::newConnection(Socket *sock) {
-  if (sock->getFd() != -1) {
-    int random = sock->getFd() % subReactors.size();
-    Connection *conn = new Connection(subReactors[random], sock);
-    std::function<void(int)> cb = std::bind(&Server::deleteConnection, this, std::placeholders::_1);
-    conn->setDeleteConnectionCallback(cb);
-    connections[sock->getFd()] = conn;
+void Server::NewConnection(Socket *sock) {
+  if (sock->GetFd() != -1) {
+    ErrorIf(sock->GetFd() == -1, "new connection error");
+    uint64_t random = sock->GetFd() % subReactors_.size();
+    Connection *conn = new Connection(subReactors_[random], sock);
+    std::function<void(Socket *)> cb = std::bind(&Server::DeleteConnection, this, std::placeholders::_1);
+    conn->SetDeleteConnectionCallback(cb);
+    conn->SetOnConnectCallback(on_connect_callback_);
+    connections_[sock->GetFd()] = conn;
   }
 }
 
-void Server::deleteConnection(int sockfd) {
-  if (sockfd != -1) {
-    auto it = connections.find(sockfd);
-    if (it != connections.end()) {
-      Connection *conn = connections[sockfd];
-      connections.erase(sockfd);
-      close(sockfd);
-      delete conn;  // 会Segmant fault
-    }
+void Server::DeleteConnection(Socket *sock) {
+  int sockfd = sock->GetFd();
+  auto it = connections_.find(sockfd);
+  if (it != connections_.end()) {
+    Connection *conn = connections_[sockfd];
+    connections_.erase(sockfd);
+    delete conn;
+    conn = nullptr;
   }
 }
+
+void Server::OnConnect(std::function<void(Connection *)> fn) { on_connect_callback_ = std::move(fn); }

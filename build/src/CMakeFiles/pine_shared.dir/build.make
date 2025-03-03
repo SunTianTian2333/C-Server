@@ -153,24 +153,10 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pine_shared.dir/EventLoop.cpp.s"
 	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suntiantian/桌面/webserver/src/EventLoop.cpp -o CMakeFiles/pine_shared.dir/EventLoop.cpp.s
 
-src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o: src/CMakeFiles/pine_shared.dir/flags.make
-src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o: /home/suntiantian/桌面/webserver/src/InetAddress.cpp
-src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o: src/CMakeFiles/pine_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o"
-	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o -MF CMakeFiles/pine_shared.dir/InetAddress.cpp.o.d -o CMakeFiles/pine_shared.dir/InetAddress.cpp.o -c /home/suntiantian/桌面/webserver/src/InetAddress.cpp
-
-src/CMakeFiles/pine_shared.dir/InetAddress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pine_shared.dir/InetAddress.cpp.i"
-	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/suntiantian/桌面/webserver/src/InetAddress.cpp > CMakeFiles/pine_shared.dir/InetAddress.cpp.i
-
-src/CMakeFiles/pine_shared.dir/InetAddress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pine_shared.dir/InetAddress.cpp.s"
-	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/suntiantian/桌面/webserver/src/InetAddress.cpp -o CMakeFiles/pine_shared.dir/InetAddress.cpp.s
-
 src/CMakeFiles/pine_shared.dir/Server.cpp.o: src/CMakeFiles/pine_shared.dir/flags.make
 src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/src/Server.cpp
 src/CMakeFiles/pine_shared.dir/Server.cpp.o: src/CMakeFiles/pine_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/pine_shared.dir/Server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/pine_shared.dir/Server.cpp.o"
 	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/pine_shared.dir/Server.cpp.o -MF CMakeFiles/pine_shared.dir/Server.cpp.o.d -o CMakeFiles/pine_shared.dir/Server.cpp.o -c /home/suntiantian/桌面/webserver/src/Server.cpp
 
 src/CMakeFiles/pine_shared.dir/Server.cpp.i: cmake_force
@@ -184,7 +170,7 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.s: cmake_force
 src/CMakeFiles/pine_shared.dir/Socket.cpp.o: src/CMakeFiles/pine_shared.dir/flags.make
 src/CMakeFiles/pine_shared.dir/Socket.cpp.o: /home/suntiantian/桌面/webserver/src/Socket.cpp
 src/CMakeFiles/pine_shared.dir/Socket.cpp.o: src/CMakeFiles/pine_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/pine_shared.dir/Socket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/pine_shared.dir/Socket.cpp.o"
 	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/pine_shared.dir/Socket.cpp.o -MF CMakeFiles/pine_shared.dir/Socket.cpp.o.d -o CMakeFiles/pine_shared.dir/Socket.cpp.o -c /home/suntiantian/桌面/webserver/src/Socket.cpp
 
 src/CMakeFiles/pine_shared.dir/Socket.cpp.i: cmake_force
@@ -198,7 +184,7 @@ src/CMakeFiles/pine_shared.dir/Socket.cpp.s: cmake_force
 src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o: src/CMakeFiles/pine_shared.dir/flags.make
 src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o: /home/suntiantian/桌面/webserver/src/ThreadPool.cpp
 src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o: src/CMakeFiles/pine_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o"
 	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o -MF CMakeFiles/pine_shared.dir/ThreadPool.cpp.o.d -o CMakeFiles/pine_shared.dir/ThreadPool.cpp.o -c /home/suntiantian/桌面/webserver/src/ThreadPool.cpp
 
 src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.i: cmake_force
@@ -212,7 +198,7 @@ src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.s: cmake_force
 src/CMakeFiles/pine_shared.dir/util.cpp.o: src/CMakeFiles/pine_shared.dir/flags.make
 src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/src/util.cpp
 src/CMakeFiles/pine_shared.dir/util.cpp.o: src/CMakeFiles/pine_shared.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/pine_shared.dir/util.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/pine_shared.dir/util.cpp.o"
 	cd /home/suntiantian/桌面/webserver/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/pine_shared.dir/util.cpp.o -MF CMakeFiles/pine_shared.dir/util.cpp.o.d -o CMakeFiles/pine_shared.dir/util.cpp.o -c /home/suntiantian/桌面/webserver/src/util.cpp
 
 src/CMakeFiles/pine_shared.dir/util.cpp.i: cmake_force
@@ -231,7 +217,6 @@ pine_shared_OBJECTS = \
 "CMakeFiles/pine_shared.dir/Connection.cpp.o" \
 "CMakeFiles/pine_shared.dir/Epoll.cpp.o" \
 "CMakeFiles/pine_shared.dir/EventLoop.cpp.o" \
-"CMakeFiles/pine_shared.dir/InetAddress.cpp.o" \
 "CMakeFiles/pine_shared.dir/Server.cpp.o" \
 "CMakeFiles/pine_shared.dir/Socket.cpp.o" \
 "CMakeFiles/pine_shared.dir/ThreadPool.cpp.o" \
@@ -246,14 +231,13 @@ lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/Channel.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/Connection.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/Epoll.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o
-lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/Server.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/Socket.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/util.cpp.o
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/build.make
 lib/libpine_shared.so: src/CMakeFiles/pine_shared.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX shared library ../lib/libpine_shared.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/suntiantian/桌面/webserver/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX shared library ../lib/libpine_shared.so"
 	cd /home/suntiantian/桌面/webserver/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pine_shared.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

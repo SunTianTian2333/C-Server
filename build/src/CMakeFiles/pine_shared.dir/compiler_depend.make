@@ -4,37 +4,51 @@
 src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserver/src/Acceptor.cpp \
   /home/suntiantian/桌面/webserver/src/include/Acceptor.h \
   /home/suntiantian/桌面/webserver/src/include/Channel.h \
-  /home/suntiantian/桌面/webserver/src/include/InetAddress.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /home/suntiantian/桌面/webserver/src/include/Socket.h \
   /usr/include/alloca.h \
   /usr/include/arpa/inet.h \
   /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/asm-generic/sockios.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
   /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/hashtable.h \
   /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
   /usr/include/c++/13/bits/new_allocator.h \
   /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/range_access.h \
@@ -55,42 +69,61 @@ src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserve
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/new \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/linux/errno.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
+  /usr/include/locale.h \
   /usr/include/netinet/in.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/asm/posix_types.h \
   /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
   /usr/include/x86_64-linux-gnu/asm/socket.h \
@@ -100,10 +133,12 @@ src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserve
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -132,7 +167,9 @@ src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserve
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
@@ -141,6 +178,7 @@ src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserve
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -149,6 +187,7 @@ src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserve
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -164,9 +203,11 @@ src/CMakeFiles/pine_shared.dir/Acceptor.cpp.o: /home/suntiantian/桌面/webserve
 
 src/CMakeFiles/pine_shared.dir/Buffer.cpp.o: /home/suntiantian/桌面/webserver/src/Buffer.cpp \
   /home/suntiantian/桌面/webserver/src/include/Buffer.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
@@ -223,6 +264,7 @@ src/CMakeFiles/pine_shared.dir/Buffer.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -355,30 +397,51 @@ src/CMakeFiles/pine_shared.dir/Buffer.cpp.o: /home/suntiantian/桌面/webserver/
 src/CMakeFiles/pine_shared.dir/Channel.cpp.o: /home/suntiantian/桌面/webserver/src/Channel.cpp \
   /home/suntiantian/桌面/webserver/src/include/Channel.h \
   /home/suntiantian/桌面/webserver/src/include/EventLoop.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
+  /home/suntiantian/桌面/webserver/src/include/Socket.h \
   /usr/include/alloca.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
   /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/hashtable.h \
   /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
   /usr/include/c++/13/bits/new_allocator.h \
   /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/range_access.h \
@@ -396,41 +459,72 @@ src/CMakeFiles/pine_shared.dir/Channel.cpp.o: /home/suntiantian/桌面/webserver
   /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/new \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/locale.h \
+  /usr/include/netinet/in.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -438,19 +532,26 @@ src/CMakeFiles/pine_shared.dir/Channel.cpp.o: /home/suntiantian/桌面/webserver
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -458,16 +559,28 @@ src/CMakeFiles/pine_shared.dir/Channel.cpp.o: /home/suntiantian/桌面/webserver
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
@@ -477,6 +590,7 @@ src/CMakeFiles/pine_shared.dir/Channel.cpp.o: /home/suntiantian/桌面/webserver
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -484,7 +598,9 @@ src/CMakeFiles/pine_shared.dir/Channel.cpp.o: /home/suntiantian/桌面/webserver
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/epoll.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
@@ -492,11 +608,18 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /home/suntiantian/桌面/webserver/src/include/Buffer.h \
   /home/suntiantian/桌面/webserver/src/include/Channel.h \
   /home/suntiantian/桌面/webserver/src/include/Connection.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /home/suntiantian/桌面/webserver/src/include/Socket.h \
   /home/suntiantian/桌面/webserver/src/include/util.h \
   /usr/include/alloca.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/backward/auto_ptr.h \
   /usr/include/c++/13/backward/binders.h \
@@ -557,6 +680,7 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/c++/13/bits/stl_iterator_base_types.h \
   /usr/include/c++/13/bits/stl_pair.h \
   /usr/include/c++/13/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/13/bits/stl_relops.h \
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
@@ -569,6 +693,7 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -595,12 +720,14 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/c++/13/pstl/execution_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/string \
   /usr/include/c++/13/string_view \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
+  /usr/include/c++/13/utility \
   /usr/include/c++/13/vector \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -609,7 +736,10 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/features.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
   /usr/include/locale.h \
+  /usr/include/netinet/in.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -621,7 +751,12 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -635,6 +770,7 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
@@ -645,6 +781,9 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -674,7 +813,9 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
@@ -703,6 +844,7 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/x86_64-linux-gnu/sys/epoll.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
@@ -711,31 +853,46 @@ src/CMakeFiles/pine_shared.dir/Connection.cpp.o: /home/suntiantian/桌面/webser
 src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/src/Epoll.cpp \
   /home/suntiantian/桌面/webserver/src/include/Channel.h \
   /home/suntiantian/桌面/webserver/src/include/Epoll.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /home/suntiantian/桌面/webserver/src/include/util.h \
   /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
   /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/hashtable.h \
   /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
   /usr/include/c++/13/bits/new_allocator.h \
   /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/range_access.h \
@@ -756,40 +913,62 @@ src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/s
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
+  /usr/include/c++/13/cwchar \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/new \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/string.h \
   /usr/include/strings.h \
   /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -797,11 +976,13 @@ src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/s
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
   /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -810,6 +991,7 @@ src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/s
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -817,16 +999,26 @@ src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/s
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
@@ -836,6 +1028,7 @@ src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/s
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -844,6 +1037,7 @@ src/CMakeFiles/pine_shared.dir/Epoll.cpp.o: /home/suntiantian/桌面/webserver/s
   /usr/include/x86_64-linux-gnu/sys/epoll.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
@@ -851,30 +1045,45 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o: /home/suntiantian/桌面/webserv
   /home/suntiantian/桌面/webserver/src/include/Channel.h \
   /home/suntiantian/桌面/webserver/src/include/Epoll.h \
   /home/suntiantian/桌面/webserver/src/include/EventLoop.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/backward/binders.h \
   /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/algorithmfwd.h \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
   /usr/include/c++/13/bits/enable_special_members.h \
   /usr/include/c++/13/bits/erase_if.h \
   /usr/include/c++/13/bits/exception.h \
   /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
   /usr/include/c++/13/bits/functexcept.h \
   /usr/include/c++/13/bits/functional_hash.h \
   /usr/include/c++/13/bits/hash_bytes.h \
   /usr/include/c++/13/bits/hashtable.h \
   /usr/include/c++/13/bits/hashtable_policy.h \
   /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/localefwd.h \
   /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
   /usr/include/c++/13/bits/new_allocator.h \
   /usr/include/c++/13/bits/node_handle.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/range_access.h \
@@ -895,44 +1104,67 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o: /home/suntiantian/桌面/webserv
   /usr/include/c++/13/bits/stl_tempbuf.h \
   /usr/include/c++/13/bits/stl_uninitialized.h \
   /usr/include/c++/13/bits/stl_vector.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
   /usr/include/c++/13/compare \
   /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cwchar \
   /usr/include/c++/13/debug/assertions.h \
   /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
   /usr/include/c++/13/ext/aligned_buffer.h \
   /usr/include/c++/13/ext/alloc_traits.h \
   /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/functional \
   /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/new \
   /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
   /usr/include/c++/13/unordered_map \
   /usr/include/c++/13/vector \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
+  /usr/include/stdio.h \
   /usr/include/stdlib.h \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/epoll.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -940,6 +1172,7 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o: /home/suntiantian/桌面/webserv
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
@@ -947,16 +1180,26 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o: /home/suntiantian/桌面/webserv
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
@@ -965,6 +1208,7 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o: /home/suntiantian/桌面/webserv
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -973,85 +1217,28 @@ src/CMakeFiles/pine_shared.dir/EventLoop.cpp.o: /home/suntiantian/桌面/webserv
   /usr/include/x86_64-linux-gnu/sys/epoll.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
-
-src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o: /home/suntiantian/桌面/webserver/src/InetAddress.cpp \
-  /home/suntiantian/桌面/webserver/src/include/InetAddress.h \
-  /usr/include/arpa/inet.h \
-  /usr/include/asm-generic/bitsperlong.h \
-  /usr/include/asm-generic/posix_types.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/endian.h \
-  /usr/include/features-time64.h \
-  /usr/include/features.h \
-  /usr/include/linux/posix_types.h \
-  /usr/include/linux/stddef.h \
-  /usr/include/netinet/in.h \
-  /usr/include/stdc-predef.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
-  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
-  /usr/include/x86_64-linux-gnu/asm/socket.h \
-  /usr/include/x86_64-linux-gnu/asm/sockios.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/in.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/socket.h \
-  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/sys/socket.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/src/Server.cpp \
   /home/suntiantian/桌面/webserver/src/include/Acceptor.h \
   /home/suntiantian/桌面/webserver/src/include/Connection.h \
   /home/suntiantian/桌面/webserver/src/include/EventLoop.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /home/suntiantian/桌面/webserver/src/include/Server.h \
   /home/suntiantian/桌面/webserver/src/include/Socket.h \
   /home/suntiantian/桌面/webserver/src/include/ThreadPool.h \
   /home/suntiantian/桌面/webserver/src/include/util.h \
   /usr/include/alloca.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/asm-generic/bitsperlong.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
@@ -1139,6 +1326,7 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -1193,7 +1381,10 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/features.h \
   /usr/include/linux/close_range.h \
   /usr/include/linux/errno.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
   /usr/include/locale.h \
+  /usr/include/netinet/in.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
@@ -1203,7 +1394,12 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/time.h \
   /usr/include/unistd.h \
   /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/x86_64-linux-gnu/asm/sockios.h \
   /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
   /usr/include/x86_64-linux-gnu/bits/byteswap.h \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
@@ -1216,6 +1412,7 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
@@ -1226,6 +1423,9 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/bits/sched.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
@@ -1255,7 +1455,9 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
@@ -1284,32 +1486,118 @@ src/CMakeFiles/pine_shared.dir/Server.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h
 
 src/CMakeFiles/pine_shared.dir/Socket.cpp.o: /home/suntiantian/桌面/webserver/src/Socket.cpp \
-  /home/suntiantian/桌面/webserver/src/include/InetAddress.h \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /home/suntiantian/桌面/webserver/src/include/Socket.h \
   /home/suntiantian/桌面/webserver/src/include/util.h \
+  /usr/include/alloca.h \
   /usr/include/arpa/inet.h \
   /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/posix_types.h \
   /usr/include/asm-generic/socket.h \
   /usr/include/asm-generic/sockios.h \
+  /usr/include/assert.h \
+  /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
+  /usr/include/c++/13/bits/alloc_traits.h \
+  /usr/include/c++/13/bits/allocator.h \
+  /usr/include/c++/13/bits/basic_string.h \
+  /usr/include/c++/13/bits/basic_string.tcc \
+  /usr/include/c++/13/bits/char_traits.h \
+  /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/concept_check.h \
+  /usr/include/c++/13/bits/cpp_type_traits.h \
+  /usr/include/c++/13/bits/cxxabi_forced.h \
+  /usr/include/c++/13/bits/cxxabi_init_exception.h \
+  /usr/include/c++/13/bits/exception.h \
+  /usr/include/c++/13/bits/exception_defines.h \
+  /usr/include/c++/13/bits/exception_ptr.h \
+  /usr/include/c++/13/bits/functexcept.h \
+  /usr/include/c++/13/bits/functional_hash.h \
+  /usr/include/c++/13/bits/hash_bytes.h \
+  /usr/include/c++/13/bits/invoke.h \
+  /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
+  /usr/include/c++/13/bits/memoryfwd.h \
+  /usr/include/c++/13/bits/move.h \
+  /usr/include/c++/13/bits/nested_exception.h \
+  /usr/include/c++/13/bits/new_allocator.h \
+  /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/postypes.h \
+  /usr/include/c++/13/bits/predefined_ops.h \
+  /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/range_access.h \
+  /usr/include/c++/13/bits/refwrap.h \
+  /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/bits/stl_algobase.h \
+  /usr/include/c++/13/bits/stl_construct.h \
+  /usr/include/c++/13/bits/stl_function.h \
+  /usr/include/c++/13/bits/stl_iterator.h \
+  /usr/include/c++/13/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/13/bits/stl_iterator_base_types.h \
+  /usr/include/c++/13/bits/stl_pair.h \
+  /usr/include/c++/13/bits/string_view.tcc \
+  /usr/include/c++/13/bits/stringfwd.h \
+  /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
+  /usr/include/c++/13/bits/utility.h \
+  /usr/include/c++/13/cassert \
+  /usr/include/c++/13/cctype \
+  /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cstddef \
+  /usr/include/c++/13/cstdio \
+  /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/cstring \
+  /usr/include/c++/13/cwchar \
+  /usr/include/c++/13/debug/assertions.h \
+  /usr/include/c++/13/debug/debug.h \
+  /usr/include/c++/13/exception \
+  /usr/include/c++/13/ext/alloc_traits.h \
+  /usr/include/c++/13/ext/numeric_traits.h \
+  /usr/include/c++/13/ext/string_conversions.h \
+  /usr/include/c++/13/ext/type_traits.h \
+  /usr/include/c++/13/initializer_list \
+  /usr/include/c++/13/iosfwd \
+  /usr/include/c++/13/new \
+  /usr/include/c++/13/pstl/pstl_config.h \
+  /usr/include/c++/13/stdexcept \
+  /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
+  /usr/include/c++/13/tuple \
+  /usr/include/c++/13/type_traits \
+  /usr/include/c++/13/typeinfo \
+  /usr/include/ctype.h \
   /usr/include/endian.h \
+  /usr/include/errno.h \
   /usr/include/fcntl.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
   /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
   /usr/include/linux/falloc.h \
   /usr/include/linux/posix_types.h \
   /usr/include/linux/stddef.h \
+  /usr/include/locale.h \
   /usr/include/netinet/in.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/unistd.h \
+  /usr/include/wchar.h \
   /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/x86_64-linux-gnu/asm/posix_types.h \
   /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
   /usr/include/x86_64-linux-gnu/asm/socket.h \
@@ -1320,11 +1608,16 @@ src/CMakeFiles/pine_shared.dir/Socket.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/bits/endian.h \
   /usr/include/x86_64-linux-gnu/bits/endianness.h \
   /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
   /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1336,6 +1629,8 @@ src/CMakeFiles/pine_shared.dir/Socket.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/bits/stat.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
@@ -1343,33 +1638,56 @@ src/CMakeFiles/pine_shared.dir/Socket.cpp.o: /home/suntiantian/桌面/webserver/
   /usr/include/x86_64-linux-gnu/bits/time64.h \
   /usr/include/x86_64-linux-gnu/bits/timesize.h \
   /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs.h \
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/socket.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o: /home/suntiantian/桌面/webserver/src/ThreadPool.cpp \
+  /home/suntiantian/桌面/webserver/src/include/Macros.h \
   /home/suntiantian/桌面/webserver/src/include/ThreadPool.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \
+  /usr/include/assert.h \
   /usr/include/c++/13/array \
   /usr/include/c++/13/atomic \
   /usr/include/c++/13/backward/auto_ptr.h \
@@ -1454,6 +1772,7 @@ src/CMakeFiles/pine_shared.dir/ThreadPool.cpp.o: /home/suntiantian/桌面/webser
   /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
+  /usr/include/c++/13/cassert \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
   /usr/include/c++/13/clocale \
@@ -1599,9 +1918,9 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
   /home/suntiantian/桌面/webserver/src/include/util.h \
   /usr/include/alloca.h \
   /usr/include/c++/13/bits/std_abs.h \
+  /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
   /usr/include/c++/13/pstl/pstl_config.h \
-  /usr/include/c++/13/stdlib.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
@@ -1662,8 +1981,6 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
 
 
-/usr/include/c++/13/stdlib.h:
-
 /usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/stat.h:
@@ -1684,8 +2001,6 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/mutex:
 
-/usr/include/c++/13/deque:
-
 /usr/include/c++/13/ctime:
 
 /usr/include/c++/13/cstdint:
@@ -1695,8 +2010,6 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 /usr/include/c++/13/bits/this_thread_sleep.h:
 
 /usr/include/c++/13/bits/stl_tree.h:
-
-/usr/include/c++/13/bits/stl_relops.h:
 
 /usr/include/c++/13/bits/stl_queue.h:
 
@@ -1716,9 +2029,9 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /home/suntiantian/桌面/webserver/src/Server.cpp:
 
-/home/suntiantian/桌面/webserver/src/InetAddress.cpp:
-
 /home/suntiantian/桌面/webserver/src/EventLoop.cpp:
+
+/usr/include/c++/13/cstring:
 
 /home/suntiantian/桌面/webserver/src/include/Epoll.h:
 
@@ -1740,75 +2053,25 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/atomic_base.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+/usr/include/c++/13/bits/align.h:
 
-/usr/include/c++/13/bits/refwrap.h:
+/usr/include/c++/13/backward/auto_ptr.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
-
-/usr/include/strings.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/unistd.h:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/usr/include/c++/13/bits/cpp_type_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket.h:
-
-/home/suntiantian/桌面/webserver/src/include/EventLoop.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/linux/falloc.h:
-
-/usr/include/x86_64-linux-gnu/bits/in.h:
-
-/usr/include/c++/13/limits:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
-/usr/include/c++/13/bits/chrono.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/arpa/inet.h:
-
-/usr/include/c++/13/bits/uses_allocator_args.h:
-
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+/home/suntiantian/桌面/webserver/src/include/Connection.h:
 
 /usr/include/stdlib.h:
 
-/usr/include/c++/13/bits/stl_multimap.h:
+/usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
-/usr/include/c++/13/condition_variable:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/usr/include/stdc-predef.h:
-
-/usr/include/asm-generic/posix_types.h:
+/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
 /usr/include/stdint.h:
 
 /usr/include/endian.h:
 
 /usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/ctype.h:
 
 /usr/include/c++/13/typeinfo:
 
@@ -1820,19 +2083,23 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/initializer_list:
 
-/usr/include/c++/13/bits/range_access.h:
-
 /usr/include/c++/13/pstl/pstl_config.h:
 
 /usr/include/c++/13/functional:
 
 /usr/include/c++/13/ext/type_traits.h:
 
+/usr/include/c++/13/ext/string_conversions.h:
+
 /usr/include/c++/13/ext/aligned_buffer.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/locale.h:
+
+/usr/include/errno.h:
+
+/usr/include/c++/13/bits/functional_hash.h:
 
 /usr/include/c++/13/debug/assertions.h:
 
@@ -1842,21 +2109,67 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
-/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+/usr/include/c++/13/clocale:
 
-/usr/include/c++/13/array:
+/usr/include/c++/13/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/home/suntiantian/桌面/webserver/src/Connection.cpp:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/c++/13/bits/vector.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
-/usr/include/c++/13/bits/algorithmfwd.h:
+/usr/include/c++/13/bits/utility.h:
 
-/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+/usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/arpa/inet.h:
+
+/usr/include/c++/13/bits/stringfwd.h:
+
+/usr/include/c++/13/bits/unordered_map.h:
+
+/usr/include/c++/13/bits/new_allocator.h:
+
+/usr/include/c++/13/bits/stl_uninitialized.h:
+
+/usr/include/c++/13/bits/stl_tempbuf.h:
+
+/usr/include/stdio.h:
+
+/usr/include/c++/13/bits/stl_iterator_base_types.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
 
-/usr/include/c++/13/bits/functexcept.h:
+/home/suntiantian/桌面/webserver/src/Acceptor.cpp:
+
+/usr/include/c++/13/bits/cxxabi_forced.h:
 
 /usr/include/c++/13/vector:
 
@@ -1870,29 +2183,17 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/erase_if.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
 /usr/include/c++/13/backward/binders.h:
 
 /usr/include/c++/13/future:
 
 /usr/include/features.h:
 
-/usr/include/c++/13/bits/basic_string.h:
-
-/usr/include/x86_64-linux-gnu/sys/epoll.h:
-
-/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
-
-/usr/include/c++/13/bits/requires_hosted.h:
-
 /usr/include/c++/13/bits/locale_facets.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/c++/13/cctype:
+/usr/include/c++/13/bits/algorithmfwd.h:
 
 /usr/include/c++/13/type_traits:
 
@@ -1906,111 +2207,37 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/enable_special_members.h:
 
-/usr/include/c++/13/bits/hash_bytes.h:
+/usr/include/assert.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/x86_64-linux-gnu/bits/in.h:
+
+/usr/include/c++/13/new:
+
+/usr/include/c++/13/ext/alloc_traits.h:
+
+/home/suntiantian/桌面/webserver/src/include/Acceptor.h:
+
+/usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
 /usr/include/c++/13/iosfwd:
 
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/13/bits/utility.h:
-
-/usr/include/c++/13/bits/stl_function.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/home/suntiantian/桌面/webserver/src/Connection.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/asm/sockios.h:
-
 /usr/include/c++/13/bits/concept_check.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/13/bits/stl_iterator_base_types.h:
-
-/usr/include/c++/13/unordered_map:
-
-/usr/include/c++/13/bits/allocator.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
-
-/home/suntiantian/桌面/webserver/src/include/Channel.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
-
-/usr/include/c++/13/bits/functional_hash.h:
-
-/usr/include/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
-
-/usr/include/c++/13/bits/basic_ios.h:
-
-/usr/include/c++/13/bits/hashtable_policy.h:
-
-/usr/include/netinet/in.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
-
-/usr/include/asm-generic/socket.h:
-
-/usr/include/c++/13/bits/move.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/c++/13/ext/alloc_traits.h:
-
-/usr/include/c++/13/new:
-
-/usr/include/c++/13/bits/stringfwd.h:
-
-/usr/include/c++/13/bits/localefwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket_type.h:
-
-/usr/include/c++/13/bits/locale_facets.h:
-
-/home/suntiantian/桌面/webserver/src/include/Socket.h:
-
-/usr/include/c++/13/bits/streambuf_iterator.h:
-
-/usr/include/c++/13/ostream:
-
-/usr/include/c++/13/system_error:
-
-/usr/include/c++/13/compare:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/13/bits/unordered_map.h:
-
-/usr/include/c++/13/bits/new_allocator.h:
-
-/usr/include/c++/13/bits/stl_uninitialized.h:
-
-/usr/include/alloca.h:
 
 /usr/include/features-time64.h:
 
 /usr/include/c++/13/map:
 
 /usr/include/c++/13/string_view:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
 /usr/include/linux/stddef.h:
 
@@ -2022,23 +2249,101 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/ptr_traits.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
 
-/usr/include/c++/13/bits/invoke.h:
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
-/usr/include/c++/13/streambuf:
+/usr/include/c++/13/unordered_map:
 
-/usr/include/c++/13/bits/memory_resource.h:
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
+/home/suntiantian/桌面/webserver/src/include/Channel.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/c++/13/bits/hashtable_policy.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/stdc-predef.h:
+
+/usr/include/asm-generic/posix_types.h:
+
+/usr/include/x86_64-linux-gnu/sys/epoll.h:
+
+/usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/bits/chrono.h:
+
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/alloca.h:
+
+/home/suntiantian/桌面/webserver/src/include/Socket.h:
+
+/usr/include/c++/13/bits/streambuf_iterator.h:
+
+/usr/include/c++/13/ostream:
+
+/usr/include/c++/13/cassert:
+
+/usr/include/c++/13/bits/cpp_type_traits.h:
+
+/usr/include/c++/13/string:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/c++/13/bits/move.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/c++/13/bits/exception_ptr.h:
+
+/usr/include/c++/13/bits/istream.tcc:
 
 /usr/include/c++/13/bits/shared_ptr_base.h:
 
 /usr/include/wchar.h:
 
+/usr/include/c++/13/tuple:
+
+/usr/include/c++/13/bits/nested_exception.h:
+
+/usr/include/c++/13/array:
+
+/usr/include/x86_64-linux-gnu/bits/sockaddr.h:
+
 /usr/include/c++/13/bits/stl_iterator_base_funcs.h:
 
 /usr/include/asm-generic/errno-base.h:
+
+/usr/include/c++/13/bits/hash_bytes.h:
+
+/usr/include/c++/13/bits/ostream_insert.h:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/condition_variable:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/c++/13/bits/invoke.h:
+
+/home/suntiantian/桌面/webserver/src/include/util.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
@@ -2056,9 +2361,7 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/stl_algobase.h:
 
-/usr/include/linux/errno.h:
-
-/usr/include/c++/13/debug/debug.h:
+/usr/include/c++/13/bits/postypes.h:
 
 /usr/include/c++/13/bits/parse_numbers.h:
 
@@ -2066,7 +2369,59 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/uses_allocator.h:
 
-/usr/include/c++/13/bits/postypes.h:
+/usr/include/c++/13/stdexcept:
+
+/usr/include/linux/errno.h:
+
+/usr/include/c++/13/debug/debug.h:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/compare:
+
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/refwrap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/13/pstl/glue_memory_defs.h:
+
+/usr/include/c++/13/exception:
+
+/usr/include/c++/13/bits/stl_pair.h:
+
+/usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/13/deque:
+
+/home/suntiantian/桌面/webserver/src/include/Macros.h:
+
+/usr/include/c++/13/bits/stl_multimap.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/13/bits/stl_construct.h:
+
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
+
+/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/c++/13/bits/requires_hosted.h:
+
+/usr/include/x86_64-linux-gnu/bits/floatn-common.h:
+
+/usr/include/c++/13/limits:
+
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -2074,17 +2429,45 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
-/usr/include/c++/13/bits/stl_construct.h:
+/usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/home/suntiantian/桌面/webserver/src/include/Acceptor.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
-/usr/include/x86_64-linux-gnu/bits/sched.h:
+/usr/include/x86_64-linux-gnu/bits/socket.h:
 
-/usr/include/c++/13/utility:
+/home/suntiantian/桌面/webserver/src/include/EventLoop.h:
 
-/usr/include/c++/13/bits/stl_heap.h:
+/usr/include/c++/13/bits/localefwd.h:
 
-/usr/include/c++/13/bits/stl_tempbuf.h:
+/usr/include/x86_64-linux-gnu/bits/socket_type.h:
+
+/usr/include/c++/13/bits/locale_facets.h:
+
+/usr/include/x86_64-linux-gnu/asm/socket.h:
+
+/usr/include/c++/13/cwchar:
+
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
+
+/usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/13/bits/basic_ios.h:
+
+/usr/include/x86_64-linux-gnu/asm/sockios.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/c++/13/bits/charconv.h:
 
@@ -2094,21 +2477,19 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/c++/13/bits/stl_relops.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
+/usr/include/c++/13/bits/hashtable.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/epoll.h:
 
@@ -2119,8 +2500,6 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
-/usr/include/c++/13/bits/align.h:
 
 /usr/include/c++/13/bits/exception_defines.h:
 
@@ -2154,14 +2533,6 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /home/suntiantian/桌面/webserver/src/include/Buffer.h:
 
-/home/suntiantian/桌面/webserver/src/Acceptor.cpp:
-
-/usr/include/c++/13/bits/cxxabi_forced.h:
-
-/usr/include/c++/13/bits/exception_ptr.h:
-
-/usr/include/c++/13/bits/istream.tcc:
-
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/13/bits/locale_classes.h:
@@ -2170,39 +2541,11 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/c++/13/bits/locale_classes.tcc:
 
-/usr/include/c++/13/tuple:
-
-/usr/include/c++/13/bits/nested_exception.h:
-
 /usr/include/c++/13/bits/ostream.tcc:
-
-/usr/include/c++/13/bits/ostream_insert.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/c++/13/bits/string_view.tcc:
-
-/usr/include/c++/13/clocale:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
-
-/usr/include/x86_64-linux-gnu/asm/socket.h:
-
-/usr/include/c++/13/cwchar:
 
 /usr/include/x86_64-linux-gnu/asm/posix_types.h:
 
 /usr/include/c++/13/cwctype:
-
-/usr/include/c++/13/pstl/glue_memory_defs.h:
-
-/usr/include/c++/13/exception:
-
-/usr/include/c++/13/bits/stl_pair.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
-
-/usr/include/c++/13/ext/string_conversions.h:
 
 /usr/include/c++/13/ios:
 
@@ -2211,14 +2554,6 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 /home/suntiantian/桌面/webserver/src/ThreadPool.cpp:
 
 /usr/include/c++/13/istream:
-
-/usr/include/c++/13/stdexcept:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/string:
-
-/usr/include/ctype.h:
 
 /usr/include/pthread.h:
 
@@ -2232,15 +2567,9 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 
-/usr/include/x86_64-linux-gnu/bits/locale.h:
-
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/c++/13/bits/hashtable.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/c++/13/ext/atomicity.h:
 
@@ -2258,17 +2587,19 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
 
-/home/suntiantian/桌面/webserver/src/include/Connection.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h:
 
 /home/suntiantian/桌面/webserver/src/Channel.cpp:
+
+/usr/include/c++/13/bits/stl_heap.h:
+
+/usr/include/c++/13/utility:
 
 /usr/include/linux/close_range.h:
 
@@ -2276,14 +2607,4 @@ src/CMakeFiles/pine_shared.dir/util.cpp.o: /home/suntiantian/桌面/webserver/sr
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/home/suntiantian/桌面/webserver/src/include/InetAddress.h:
-
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/home/suntiantian/桌面/webserver/src/include/util.h:
-
-/usr/include/c++/13/backward/auto_ptr.h:

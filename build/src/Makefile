@@ -274,30 +274,6 @@ EventLoop.cpp.s:
 	cd /home/suntiantian/桌面/webserver/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pine_shared.dir/build.make src/CMakeFiles/pine_shared.dir/EventLoop.cpp.s
 .PHONY : EventLoop.cpp.s
 
-InetAddress.o: InetAddress.cpp.o
-.PHONY : InetAddress.o
-
-# target to build an object file
-InetAddress.cpp.o:
-	cd /home/suntiantian/桌面/webserver/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pine_shared.dir/build.make src/CMakeFiles/pine_shared.dir/InetAddress.cpp.o
-.PHONY : InetAddress.cpp.o
-
-InetAddress.i: InetAddress.cpp.i
-.PHONY : InetAddress.i
-
-# target to preprocess a source file
-InetAddress.cpp.i:
-	cd /home/suntiantian/桌面/webserver/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pine_shared.dir/build.make src/CMakeFiles/pine_shared.dir/InetAddress.cpp.i
-.PHONY : InetAddress.cpp.i
-
-InetAddress.s: InetAddress.cpp.s
-.PHONY : InetAddress.s
-
-# target to generate assembly for a file
-InetAddress.cpp.s:
-	cd /home/suntiantian/桌面/webserver/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/pine_shared.dir/build.make src/CMakeFiles/pine_shared.dir/InetAddress.cpp.s
-.PHONY : InetAddress.cpp.s
-
 Server.o: Server.cpp.o
 .PHONY : Server.o
 
@@ -421,9 +397,6 @@ help:
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"
-	@echo "... InetAddress.o"
-	@echo "... InetAddress.i"
-	@echo "... InetAddress.s"
 	@echo "... Server.o"
 	@echo "... Server.i"
 	@echo "... Server.s"

@@ -13,8 +13,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/pine_shared.dir/Epoll.cpp.o.d"
   "CMakeFiles/pine_shared.dir/EventLoop.cpp.o"
   "CMakeFiles/pine_shared.dir/EventLoop.cpp.o.d"
-  "CMakeFiles/pine_shared.dir/InetAddress.cpp.o"
-  "CMakeFiles/pine_shared.dir/InetAddress.cpp.o.d"
   "CMakeFiles/pine_shared.dir/Server.cpp.o"
   "CMakeFiles/pine_shared.dir/Server.cpp.o.d"
   "CMakeFiles/pine_shared.dir/Socket.cpp.o"

@@ -1,53 +1,52 @@
 #pragma once
-#include <condition_variable>
+#include <condition_variable>  // NOLINT
 #include <functional>
-#include <future>
+#include <future>  // NOLINT
 #include <memory>
-#include <mutex>
+#include <mutex>  // NOLINT
 #include <queue>
-#include <thread>
+#include <thread>  // NOLINT
 #include <utility>
 #include <vector>
+#include "Macros.h"
 
 class ThreadPool {
- private:
-  std::vector<std::thread> threads;
-  std::queue<std::function<void()>> tasks;
-  std::mutex tasks_mtx;
-  std::condition_variable cv;
-  bool stop;
-
  public:
-  explicit ThreadPool(int size = 10);
+  explicit ThreadPool(unsigned int size = std::thread::hardware_concurrency());
   ~ThreadPool();
 
-  // void add(std::function<void()>);
+  DISALLOW_COPY_AND_MOVE(ThreadPool);
 
   template <class F, class... Args>
-  auto Add(F &&f, Args &&... args) -> std::future<typename std::invoke_result<F, Args...>::type>;
+  auto Add(F &&f, Args &&...args) -> std::future<typename std::result_of<F(Args...)>::type>;
 
+ private:
+  std::vector<std::thread> workers_;
+  std::queue<std::function<void()>> tasks_;
+  std::mutex queue_mutex_;
+  std::condition_variable condition_variable_;
+  bool stop_{false};
 };
 
-// c++不支持模板分离编译
+// 不能放在cpp文件，C++编译器不支持模版的分离编译
 template <class F, class... Args>
-auto ThreadPool::Add(F &&f, Args &&... args) -> std::future<typename std::invoke_result<F, Args...>::type> {
-  using return_type = typename std::invoke_result<F, Args...>::type;
+auto ThreadPool::Add(F &&f, Args &&...args) -> std::future<typename std::result_of<F(Args...)>::type> {
+  using return_type = typename std::result_of<F(Args...)>::type;
 
-  auto task = std::make_shared<std::packaged_task<return_type()>>(
-      std::bind(std::forward<F>(f), std::forward<Args>(args)...));
+  auto task =
+      std::make_shared<std::packaged_task<return_type()>>(std::bind(std::forward<F>(f), std::forward<Args>(args)...));
 
   std::future<return_type> res = task->get_future();
   {
-    std::unique_lock<std::mutex> lock(tasks_mtx);
+    std::unique_lock<std::mutex> lock(queue_mutex_);
 
-    // don't allow enqueueing after stopping the pool
-    if (stop) {
+    
+    if (stop_) {
       throw std::runtime_error("enqueue on stopped ThreadPool");
     }
 
-    tasks.push([task]() { (*task)(); });
+    tasks_.push([task]() { (*task)(); });
   }
-  cv.notify_one();
+  condition_variable_.notify_one();
   return res;
 }
-
