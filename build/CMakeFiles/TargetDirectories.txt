@@ -1,0 +1,17 @@
+/home/suntiantian/桌面/webserver/build/CMakeFiles/format.dir
+/home/suntiantian/桌面/webserver/build/CMakeFiles/check-format.dir
+/home/suntiantian/桌面/webserver/build/CMakeFiles/cpplint.dir
+/home/suntiantian/桌面/webserver/build/CMakeFiles/clang-tidy.dir
+/home/suntiantian/桌面/webserver/build/CMakeFiles/edit_cache.dir
+/home/suntiantian/桌面/webserver/build/CMakeFiles/rebuild_cache.dir
+/home/suntiantian/桌面/webserver/build/src/CMakeFiles/pine_shared.dir
+/home/suntiantian/桌面/webserver/build/src/CMakeFiles/edit_cache.dir
+/home/suntiantian/桌面/webserver/build/src/CMakeFiles/rebuild_cache.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/build-tests.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/check-tests.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/multiple_client.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/server.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/single_client.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/thread_test.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/edit_cache.dir
+/home/suntiantian/桌面/webserver/build/test/CMakeFiles/rebuild_cache.dir
