@@ -40,7 +40,6 @@ auto ThreadPool::Add(F &&f, Args &&...args) -> std::future<typename std::result_
   {
     std::unique_lock<std::mutex> lock(queue_mutex_);
 
-    
     if (stop_) {
       throw std::runtime_error("enqueue on stopped ThreadPool");
     }

@@ -2,7 +2,6 @@
 #include <vector>
 #include "Channel.h"
 
-
 #ifdef OS_LINUX
 #include <sys/epoll.h>
 #endif
@@ -24,4 +23,3 @@ class Epoll {
   int epfd_{1};
   struct epoll_event *events_{nullptr};
 };
-

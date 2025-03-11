@@ -31,6 +31,7 @@ void Socket::Bind(InetAddress *addr) {
 void Socket::Listen() { ErrorIf(::listen(fd_, SOMAXCONN) == -1, "socket listen error"); }
 void Socket::SetNonBlocking() { fcntl(fd_, F_SETFL, fcntl(fd_, F_GETFL) | O_NONBLOCK); }
 bool Socket::IsNonBlocking() { return (fcntl(fd_, F_GETFL) & O_NONBLOCK) != 0; }
+
 int Socket::Accept(InetAddress *addr) {
   // 服务端 socket
   int clnt_sockfd = -1;
@@ -61,7 +62,7 @@ void Socket::Connect(InetAddress *addr) {
   // 客户端 socket
   struct sockaddr_in tmp_addr = addr->GetAddr();
   if (fcntl(fd_, F_GETFL) & O_NONBLOCK) {
-    while (true) {
+    while (true) {  // 不断尝试连接
       int ret = connect(fd_, (sockaddr *)&tmp_addr, sizeof(tmp_addr));
       if (ret == 0) {
         break;

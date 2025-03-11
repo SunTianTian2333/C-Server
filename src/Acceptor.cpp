@@ -4,7 +4,6 @@
 #include "Socket.h"
 
 Acceptor::Acceptor(EventLoop *_loop) : loop_(_loop) {
-  // 将创建服务器socket的任务从Server类转移到这里
   sock_ = new Socket();
   InetAddress *addr = new InetAddress("127.0.0.1", 8888);
   sock_->Bind(addr);
@@ -36,4 +35,3 @@ void Acceptor::AcceptConnection() {
 void Acceptor::SetNewConnectionCallback(std::function<void(Socket *)> const &callback) {
   new_connection_callback_ = callback;
 }
-

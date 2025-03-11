@@ -1,4 +1,3 @@
-
 #include <unistd.h>
 #include <utility>
 
@@ -21,18 +20,18 @@ void Channel::HandleEvent() {
     read_callback_();
   }
   if (ready_events_ & (EPOLLOUT)) {
-    write_callback_();
+    write_callback_();  // 未定义
   }
 }
 
 void Channel::EnableRead() {
-  listen_events_ |= EPOLLIN | EPOLLPRI;
+  listen_events_ |= EPOLLIN | EPOLLPRI;  // EPOLLIN:表示可读事件  EPOLLPRI:表示紧急数据可读
   loop_->UpdateChannel(this);
 }
 
 void Channel::UseET() {
   listen_events_ |= EPOLLET;
-  loop_->UpdateChannel(this);
+  loop_->UpdateChannel(this);  // EPOLLET:边缘触发
 }
 
 int Channel::GetFd() { return fd_; }
@@ -47,36 +46,4 @@ void Channel::SetInEpoll(bool in) { in_epoll_ = in; }
 void Channel::SetReadyEvents(uint32_t ev) { ready_events_ = ev; }
 
 void Channel::SetReadCallback(std::function<void()> const &callback) { read_callback_ = callback; }
-
-// void Channel::handleEvent(){
-//     loop->addThread(callback);  //引入线程池
-//     // callback();
-// }
-
-// void Channel::handleEvent(){
-//     if(ready & (EPOLLIN | EPOLLPRI)){
-//         if(useThreadPool)
-//             loop->addThread(readCallback);
-//         else
-//             readCallback();
-//     }
-//     if(ready & (EPOLLOUT)){
-//         if(useThreadPool)
-//             loop->addThread(writeCallback);
-//         else
-//             writeCallback();
-//     }
-// }
-
-// void Channel::enableReading(){
-//     events = EPOLLIN | EPOLLET;
-//     loop->updateChannel(this);
-// }
-
-// void Channel::setEvents(uint32_t _ev){
-//     events = _ev;
-// }
-
-// void Channel::setUseThreadPool(bool use){
-//     useThreadPool = use;
-// }
+void Channel::SetWriteCallback(std::function<void()> const &callback) { write_callback_ = callback; }

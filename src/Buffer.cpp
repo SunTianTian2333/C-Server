@@ -2,7 +2,6 @@
 #include <string.h>
 #include <iostream>
 
-
 void Buffer::Append(const char *_str, int _size) {
   for (int i = 0; i < _size; ++i) {
     if (_str[i] == '\0') break;

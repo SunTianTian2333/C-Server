@@ -1,7 +1,6 @@
 #include "ThreadPool.h"
 #include <stdexcept>
 
-
 ThreadPool::ThreadPool(unsigned int size) {
   for (unsigned int i = 0; i < size; ++i) {
     workers_.emplace_back(std::thread([this]() {

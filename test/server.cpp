@@ -1,26 +1,34 @@
 #include <iostream>
 
-#include "../src/include/Server.h"
 #include "../src/include/Buffer.h"
 #include "../src/include/Connection.h"
 #include "../src/include/EventLoop.h"
+#include "../src/include/Server.h"
 #include "../src/include/Socket.h"
+#include "../src/include/SignalHandler.h"
 
 int main() {
   EventLoop *loop = new EventLoop();
   Server *server = new Server(loop);
-  server->OnConnect([](Connection * conn) {  // 自定义业务逻辑
-    conn->Read();
-    if (conn->GetState() == Connection ::State::Closed) {
-      conn->Close();
-      return;
-    }
-    std::cout << "Message from client " << conn->GetSocket()->GetFd() << ": " << conn->ReadBuffer() << std::endl;
-    conn->SetSendBuffer(conn->ReadBuffer());
-    conn->Write();
+
+  // 手动停止服务器
+  Signal::signal(SIGINT, [&] {
+    delete server;
+    delete loop;
+    std::cout << "\nServer exit!" << std::endl;
+    exit(0);
   });
+
+  server->NewConnect(
+      [](Connection *conn) { std::cout << "New connection fd: " << conn->GetSocket()->GetFd() << std::endl; });
+
+  server->OnMessage([](Connection *conn) {
+    std::cout << "Message from client " << conn->ReadBuffer() << std::endl;
+    if (conn->GetState() == Connection::State::Connected) {
+      conn->Send(conn->ReadBuffer());
+    }
+  });
+
   loop->Loop();
-  delete server;
-  delete loop;
   return 0;
 }

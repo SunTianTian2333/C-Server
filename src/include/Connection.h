@@ -9,7 +9,7 @@ class Socket;
 class Channel;
 class Buffer;
 class Connection {
-  public:
+ public:
   enum State {
     Invalid = 1,
     Handshaking,
@@ -37,7 +37,11 @@ class Connection {
   Socket *GetSocket();
 
   void OnConnect(std::function<void()> fn);
-  
+
+  void Send(std::string msg);
+  void Business();
+  void SetOnMessageCallback(std::function<void(Connection *)> const &callback);
+
  private:
   EventLoop *loop_;
   Socket *sock_;
@@ -48,11 +52,10 @@ class Connection {
   std::function<void(Socket *)> delete_connectioin_callback_;
 
   std::function<void(Connection *)> on_connect_callback_;
+  std::function<void(Connection *)> on_message_callback_;
 
   void ReadNonBlocking();
   void WriteNonBlocking();
   void ReadBlocking();
   void WriteBlocking();
-
- 
 };
